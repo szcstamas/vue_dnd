@@ -7,6 +7,7 @@
 </template>
 
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,12 +19,12 @@
 nav {
   padding: 30px;
 
-  a {
+  a { 
     font-weight: bold;
-    color: #2c3e50;
+    color: $primary_color;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: $secondary_color;
     }
   }
 }
